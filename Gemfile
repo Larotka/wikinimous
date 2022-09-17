@@ -3,6 +3,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
+# gem bootstrap
+gem 'bootstrap', '~> 5.2.0'
+
+# simple form
+gem 'simple_form'
+
 #faker gem
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 
