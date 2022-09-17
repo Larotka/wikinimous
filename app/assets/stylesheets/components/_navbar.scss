@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 7vh;
+  margin-bottom: 7vh;
+  border-color: rgba(222,222,226,1);
+  background: rgb(251,251,251);
+  background: linear-gradient(0deg, rgba(251,251,251,1) 2%, rgba(222,222,226,1) 75%);
+  p {
+    color: rgb(94, 94, 94);
+    margin: 0;
+  }
+  a {
+    text-transform: none;
+    text-decoration: none;
+    color: rgba(94, 94, 94, 0.71);
+  }
+
+  a:hover {
+    text-transform: none;
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+  }
+}

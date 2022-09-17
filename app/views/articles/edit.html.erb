@@ -1,0 +1,5 @@
+<%= simple_form_for @article, method: :patch, url: article_update_path(@article)  do |f| %>
+  <%= f.input :title, input_html: { value: @article.title } %>
+  <%= f.input :content, input_html: { value: @article.content } %>
+  <%= f.submit "bt", class: "btn col-4" %>
+<% end %>

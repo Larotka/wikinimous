@@ -1,0 +1,17 @@
+.btn-delete {
+  background-color: rgba(222,222,226,1) !important;
+  color: rgb(35, 82, 124) !important;
+  border-radius: 4px !important;
+}
+.btn-delete:hover {
+  transform: scale(1.08);
+}
+
+.btn-create-article {
+  background-color: rgb(35, 82, 124) !important;
+  color: white !important;
+  border-radius: 4px !important;
+}
+.btn-create-article:hover {
+  transform: scale(1.08);
+}

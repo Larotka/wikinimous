@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+@import "components/navbar";
+.no-purp-btn {
+  text-transform: none;
+  text-decoration: none;
+  color: rgb(51, 122, 183);
+}
+.no-purp-btn:hover {
+  text-transform: none;
+  color: rgb(35, 82, 124);
+}
+p {
+  font-weight: 300;
+}

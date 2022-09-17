@@ -1,0 +1,15 @@
+<div class="col-6 mx-auto">
+  <%= simple_form_for @article do |f| %>
+    <div class="row pb-5">
+      <h2 class="text-center">Add a new title</h2>
+    </div>
+    <%= f.input :title, input_html: { class: 'col-11 mx-auto mb-5' }, label: false %>
+    <div class="row pb-5">
+      <h2 class="text-center">Write your content here</h2>
+    </div>
+    <%= f.input :content, input_html: { class: 'col-11 mx-auto pb-4 mb-5' }, label: false %>
+    <div class="d-flex justify-content-center">
+      <%= f.submit "Create article", class: "btn btn-create-article col-6" %>
+    </div>
+  <% end %>
+</div>
